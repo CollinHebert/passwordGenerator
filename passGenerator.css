@@ -12,14 +12,27 @@ body {
     background-color: #28282b;
 
 }
+/* .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ */
 
 #genButton {
-    margin-top: 8px;
     border: none;
     padding: 20px;
     border-radius: 8px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:600;
     font-size: large;
@@ -29,20 +42,15 @@ body {
 }
 h1 {
     font-size: 48px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: burlywood;
-    
+
 }
 input {
     border-style: solid;
     border-color: black;
     border-radius: 10px;
-    padding: 15px 10px;
-    padding-left: 225px;
+    padding: 15px 10px 15px 225px; /* Top Right Bottom Left */
     margin-bottom: 5px;
-}
-.copy{
-    border-radius: 10px;
-    padding: 10px;
 }
