@@ -1,5 +1,5 @@
 :root{
-    --main-bg-color: #490206;
+    --main-bg-color: #343434; /*Tried a brownish color, sadly didn't work*/
     --main-text-color: black;
     --primary-color: burlywood;
 }
