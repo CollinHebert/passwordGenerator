@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const generateButton = document.querySelector(".generate-button");
     const copyButton = document.querySelector(".copy").closest("button"); // Ensure correct button selection
 
-    function generatePassword(length = 12) {
+    function generatePassword(length = 8) {
         const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
         let password = "";
         for (let i = 0; i < length; i++) {
